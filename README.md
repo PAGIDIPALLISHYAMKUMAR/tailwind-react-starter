@@ -58,8 +58,8 @@ backend/
 
 ### 1. Clone the repo:
 ```bash
-git clone https://github.com/yourname/devops-interview-simulator.git
-cd devops-interview-simulator
+git clone https://github.com/yourname/interview-simulator.git
+cd interview-simulator
 ```
 
 ### 2. Install and Run Backend (Python)
