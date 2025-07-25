@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: white; /* ✅ ensure light fallback */
+  color: black;
+}
+html.dark body {
+  background-color: #111827; /* Tailwind's gray-900 */
+  color: white;
+}
+
